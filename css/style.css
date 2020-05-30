@@ -1,0 +1,154 @@
+/* GERAIS */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+/* FIM GERAIS */
+
+/*BANNER */
+.banner  {
+    background: url(../img/wallpaper.png) center no-repeat;
+    background-size: cover;
+    height: 560px;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__profile  img{
+    display: flex;
+    border-radius: 50%;
+    width: 340px;
+    height: 340px;
+    margin-right: 70px;
+}
+
+.banner__profile:hover{
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+.banner__conteudo {
+    color: white;
+    text-align: left;
+}
+
+.banner__link {
+    text-align: center;
+}
+
+.botao img {
+    width: 170px;
+    height: 170px;
+    margin-left: 50px;
+}
+
+.botao:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+/* FIM BANNER */
+
+/* COMECO SOBRE / HABILIDADES */
+
+.section {
+    display: flex;
+    margin: 5% 5%;
+    line-height: 30px;
+}
+
+.section__titulo1 {
+    display: inline;
+}
+
+.section__titulo1 img {
+    width: 30px;
+    height: 30px;
+}
+
+.section__titulo2 {
+    font-size: 30px;
+    margin-left: 20px;
+    width: 30%;
+    text-align: justify;
+}
+
+.sobre {
+    display: flex;
+}
+
+.sobre__texto {
+    width: 70%;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+.sobre__texto-principal {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.sobre-habilidades {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre__cv {
+    text-transform: uppercase;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 35px;
+    margin-left: 50px;
+    margin-top: 135px;
+}
+
+/* FIM SOBRE / HABILIDADES */
+
+/* FOOTER */
+
+.footer {
+    margin: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes-sociais {
+    display: flex;
+}
+
+.redes-sociais__link {
+    margin: 20px;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    width: 150px;
+}
+
+.redes-sociais__link:hover {
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+.redes-sociais__link img {
+    padding-top: 15px;
+    width: auto;
+    height: 90px;
+}
+
+.copyright {
+    display: flex;   
+}
